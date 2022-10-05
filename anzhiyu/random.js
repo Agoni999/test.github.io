@@ -1,0 +1,1 @@
+var posts=["2022/10/02/TED/其一/","2022/10/03/前端/面试其一/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
